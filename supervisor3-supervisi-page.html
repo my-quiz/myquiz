@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo48.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="cssKu.css">
+    <title>My Quiz</title>
+</head>
+
+<body>
+    <main class="poppins">
+        <header class="fixed a-0 rata-pinggir l-100p t-60 bg-ungu jkika60">
+            <img src="back.svg" class="icon-back k-30 tangan">
+            <span>
+                <img src="note.png" class="note k-25 tangan">
+                <img src="reload.svg" class="reload k-25 tangan">
+            </span>
+        </header>
+        <section class="section-utama j10 l-100p t-100v jkika60 ja-70 skrol">
+            <div class="jb-10">
+                <div class="label1"></div>
+                <div class="label2"></div>
+                <div class="label3 jb-10"></div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="poppins border-1" style="width: 10px">No</th>
+                        <th class="poppins border-1">Student Name</th>
+                        <th class="poppins border-1" style="width: 10px">Status</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+        <section class="fixed a-0 ki-0 catatanSupervisi rata-tengah rata-tengah l-100v t-100v j40 timpa-15 bg-hitam-06 none">
+            <div class="rel muncul-membesar kolom l-600 j20 border bg-putih sudut-tumpul-10 bayangan">
+                <span class="abs a-0 ka-10 merah fa-times tangan">x</span>
+                <h3 class="poppins hitam teks-tengah lh-25 jb-15 uh-20">Supervisor Notes</h3>
+                <label class="jki-5 uh-14">Name</label>
+                <input type="text" class="nama-supervisi jab10 jb-5 jkika10 uh-16 poppins">
+                <label class="jki-5 uh-14">Notes</label>
+                <textarea class="catatan-supervisi t-textarea-khusus j10 uh-16 poppins"></textarea>
+                <button class="save-s-note l-100p jab10 uh-16 ja-5 bg-hijau tangan">Save</button>
+            </div>
+        </section>
+        <section class="k-pesan rata-tengah l-100v t-100v abs-aki-0 bg-hitam-06 bz timpa-20 none">
+            <div class="rata-tengah kolom l-250 jab40 jkika30 bg-putih sudut-tumpul-10 muncul-membesar">
+                <div class="img-pesan k-80"></div>
+                <h4 class="judul-pesan poppins hitam teks-tengah lh-25 jab-20"></h4>
+                <button class="btn-oke-pesan jkika20 jab10 bg-ungu-jalan">Oke</button>
+            </div>
+        </section>
+        <section class="fixed a-0 ki-0 l-100v t-100v bg-hitam-06 none rata-tengah ja60 timpa-20">
+            <img src="menunggu2.png" class="k-50">
+        </section>
+    </main>
+    <script src="supervisor3-supervisi-page.js" type="module"></script>
+</body>
+
+</html>
